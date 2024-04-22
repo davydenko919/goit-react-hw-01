@@ -20,15 +20,15 @@ export default function Profile({
       <ul>
         <li>
           <span>Followers</span>
-          <span>1000</span>
+          <span>{followers}</span>
         </li>
         <li>
           <span>Views</span>
-          <span>2000</span>
+          <span>{views}</span>
         </li>
         <li>
           <span>Likes</span>
-          <span>3000</span>
+          <span>{likes}</span>
         </li>
       </ul>
     </div>
